@@ -84,7 +84,7 @@ Make sure you have the following installed:
 Open your terminal and clone the project repository:
 
 ```bash
-git clone https://github.com/Chetoh16/SongAdder
+git clone https://github.com/Chetoh16/song-adder
 ```
 
 ### 2. Create and Activate a Virtual Environment
