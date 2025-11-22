@@ -12,7 +12,6 @@ client_secret = os.getenv('client_secret')
 
 
 
-
 # Rather than hardcoding the client secret and therefore giving away my precious code (which would bite me in the ass later if i were to publish this code)
 # I created environmental variables and stored my client secret there
 # I also gitignored that .env file so it doesn't show up in the repository
@@ -96,7 +95,6 @@ def home():
             return redirect(url_for("home", error_message="Invalid playlist link! Please enter a valid one."))
 
     return render_template('home.html', error_message=error_message)
-# If the user is authenticated, the app renders an HTML form where the user can enter a Spotify playlist URL. If an error message exists, it’s displayed in a red box.
 
 # if the user is authenticated, the app renders an HTML form where the user can enter a Spotify playlist URL. If an error message exists, it’s displayed in a red box.
 def is_valid_playlist_link(link):
