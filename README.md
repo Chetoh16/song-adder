@@ -5,6 +5,8 @@ A simple web app for managing and adding songs to your Spotify playlists.
 ## Table of Contents
 - [Introduction](#introduction)
 - [Purpose](#purpose)
+- [How It's Made](#how-its-made)
+- [Future Implementations](#future-implementations)
 - [Setup Instructions](#setup-instructions)
   - [Prerequisites](#prerequisites)
   - [Clone the Repository](#1-clone-the-repository)
@@ -66,7 +68,6 @@ This is also the project that made me learn the value of environmental variables
 ## Future Implementations
 - Rather than a file, accept text book from website
 - Remove "allow repeated artists" button
-
 
 ## Setup Instructions
 
