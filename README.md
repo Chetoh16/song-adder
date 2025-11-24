@@ -49,13 +49,13 @@ I was done in about a day or two, and I was fairly happy with the project becaus
 This is also the project that made me learn the value of environmental variables. I'd like to think every developer at some point accidently pushed their API key to GitHub so to avoid that I created environmental variables and stored my secrets there.
 
 ## How It's Made
-- Used Technologies: 
-  - Python – Core language for application logic
-  - Flask – Web framework for routing, sessions, and rendering templates
-  - Spotipy – Spotify Web API wrapper for authentication and playlist operations
-  - HTML – Rendered by Flask for forms and feedback pages
-  - Spotify Web API – Handles track search, playlist modification, authentication
-  - FlaskSessionCacheHandler – Manages Spotify OAuth tokens via Flask sessions
+- Technologies Used: 
+  - `Python` – Core language for application logic
+  - `Flask` – Web framework for routing, sessions, and rendering templates
+  - `Spotipy` – Spotify Web API wrapper for authentication and playlist operations
+  - `HTML` – Rendered by Flask for forms and feedback pages
+  - `Spotify Web API` – Handles track search, playlist modification, authentication
+  - `FlaskSessionCacheHandler` – Manages Spotify OAuth tokens via Flask sessions
 
 - There's a cache handler to store the OAuth access token in the Flask session, so users don’t have to log in repeatedly. Checks whether the user is authenticated by validating the cached token stored in the Flask session.
 - If the token is not valid, the app generates an authorisation URL where the user can log in and grant permissions. If the user is authenticated, the app renders an HTML form where the user can enter a Spotify playlist URL. If an error message exists, it’s displayed in a red box.
