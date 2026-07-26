@@ -55,7 +55,7 @@ app.config['SECRET_KEY'] = os.urandom(64)
 # Variables needed by spotipy
 client_id = os.getenv('client_id')
 client_secret = os.getenv('client_secret')
-redirect_uri = 'http://localhost:5000/callback'
+redirect_uri = 'http://127.0.0.1:5000/callback'
 scope = 'playlist-read-private playlist-modify-private playlist-modify-public user-read-recently-played user-read-playback-state'
 
 cache_handler = FlaskSessionCacheHandler(session)
